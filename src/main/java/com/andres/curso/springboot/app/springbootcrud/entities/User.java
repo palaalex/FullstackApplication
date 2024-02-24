@@ -17,7 +17,8 @@ public class User {
 
     private String password;
 
-    private Boolean enabled;
+    @Transient // Le decimos a el framework que no es un campo de la base de datos
+    private boolean admin;
 
     @ManyToMany
     @JoinTable(
@@ -53,12 +54,12 @@ public class User {
         this.password = password;
     }
 
-    public Boolean getEnabled() {
-        return enabled;
+    public boolean getAdmin() {
+        return admin;
     }
 
-    public void setEnabled(Boolean enabled) {
-        this.enabled = enabled;
+    public void setAdmin(Boolean admin) {
+        this.admin = admin;
     }
 
     public List<Role> getRoles() {
