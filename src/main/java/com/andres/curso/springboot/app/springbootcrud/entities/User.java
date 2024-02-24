@@ -1,6 +1,8 @@
 package com.andres.curso.springboot.app.springbootcrud.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 import java.util.List;
 
@@ -13,11 +15,14 @@ public class User {
     private Long id;
 
     @Column(unique = true)
+    @NotBlank
+    @Size(min=4, max=12)
     private String username;
 
+    @NotBlank
     private String password;
 
-    @Transient // Le decimos a el framework que no es un campo de la base de datos
+    @Transient // campo que no es de persistenciaLe decimos a el framework que no es un campo de la base de datos
     private boolean admin;
 
     @ManyToMany
@@ -54,19 +59,19 @@ public class User {
         this.password = password;
     }
 
-    public boolean getAdmin() {
-        return admin;
-    }
-
-    public void setAdmin(Boolean admin) {
-        this.admin = admin;
-    }
-
     public List<Role> getRoles() {
         return roles;
     }
 
     public void setRoles(List<Role> roles) {
         this.roles = roles;
+    }
+
+    public boolean isAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(boolean admin) {
+        this.admin = admin;
     }
 }

@@ -11,7 +11,7 @@ public class Role {
     private Long id;
 
     @Column(unique = true)
-    private String nombre;
+    private String name;
 
 
     public Role() { }
@@ -24,11 +24,11 @@ public class Role {
         this.id = id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return name;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String nombre) {
+        this.name = nombre;
     }
 }
