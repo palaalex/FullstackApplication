@@ -26,7 +26,7 @@ public class JWTGenerator {
                 .withClaim("id", user.getId())
                 .withIssuedAt(new Date())
                 .withIssuer("Baeldung")
-                .withExpiresAt(new Date(System.currentTimeMillis() + 60 * 10000))
+                .withExpiresAt(new Date(System.currentTimeMillis() + 24 * 60 * 60 * 1000))
                 .withJWTId(UUID.randomUUID()
                         .toString())
                 .withNotBefore(new Date(System.currentTimeMillis() + 1000L))
@@ -43,5 +43,17 @@ public class JWTGenerator {
             return false;
         }
         return true;
+    }
+
+    public static String getTokenClaim(String token, String claim) {
+        DecodedJWT decodedJWT = null;
+        try{
+            decodedJWT = verifier.verify(token);
+            System.out.println(decodedJWT.getClaim("username").asString());
+            return decodedJWT.getClaim(claim).asString();
+        } catch (JWTVerificationException e){
+            System.out.println(e.getMessage());
+            return null;
+        }
     }
 }

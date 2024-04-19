@@ -1,24 +1,21 @@
 package com.andres.curso.springboot.app.springbootcrud.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.sql.Date;
 
 @Entity
 public class Post {
     @Id
-    @GeneratedValue()
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
     private String content;
     @Column(name = "created_by")
     private String createdBy;
-    @Column(name = "created_by")
+    @Column(name = "created_on")
     private Date createdOn;
-    @Column(name = "created_by")
+    @Column(name = "updated_on")
     private Date updatedOn;
 
     public Long getId() {
@@ -67,5 +64,17 @@ public class Post {
 
     public void setUpdatedOn(Date updatedOn) {
         this.updatedOn = updatedOn;
+    }
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                ", createdBy='" + createdBy + '\'' +
+                ", createdOn=" + createdOn +
+                ", updatedOn=" + updatedOn +
+                '}';
     }
 }
