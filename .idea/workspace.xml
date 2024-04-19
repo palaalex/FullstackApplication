@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce6f4787-2750-4044-81c0-e218df16b4ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/JWTGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/PasswordEncrypter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/SpringbootCrudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/controllers/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/controllers/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/entities/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/entities/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/repositories/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/curso/springboot/app/springbootcrud/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andres/curso/springboot/app/springbootcrud/SpringbootCrudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-react-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-react-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/DeleteByIdComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/GetByIdComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/GetComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/HomeComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/LoginComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/PostComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/RegisterComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/UserComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/Components/UserPageComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/types/User.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/util/useLocalState.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-react-app/src/vite-env.d.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2cnErwfW6RbrJTs6rDgh3veJV0g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PasswordEncrypter.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SpringbootCrudApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Code/springboot-crud",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "51277d5959149ae0c2bc500e65839b24",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.andres.curso.springboot.app.springbootcrud.entities" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.andres.curso.springboot.app.springbootcrud" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringbootCrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.andres.curso.springboot.app.springbootcrud.SpringbootCrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce6f4787-2750-4044-81c0-e218df16b4ad" name="Changes" comment="" />
+      <created>1708739145796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708739145796</updated>
+      <workItem from="1708739147571" duration="5567000" />
+      <workItem from="1708776148744" duration="13451000" />
+      <workItem from="1708874224774" duration="784000" />
+      <workItem from="1709124142487" duration="14000" />
+      <workItem from="1712435895596" duration="298000" />
+      <workItem from="1712436843744" duration="175000" />
+      <workItem from="1712437682766" duration="2793000" />
+      <workItem from="1712520879939" duration="10726000" />
+      <workItem from="1712606758866" duration="230000" />
+      <workItem from="1712615153878" duration="1944000" />
+      <workItem from="1712681480083" duration="1160000" />
+      <workItem from="1712688487460" duration="633000" />
+      <workItem from="1712754976209" duration="21585000" />
+      <workItem from="1712857486920" duration="9574000" />
+      <workItem from="1712878760754" duration="603000" />
+      <workItem from="1712879386496" duration="2173000" />
+      <workItem from="1712927047928" duration="4130000" />
+      <workItem from="1712941947455" duration="5699000" />
+      <workItem from="1712955741530" duration="382000" />
+      <workItem from="1713035471930" duration="5800000" />
+      <workItem from="1713134782675" duration="3506000" />
+      <workItem from="1713210615037" duration="904000" />
+      <workItem from="1713213341343" duration="2830000" />
+      <workItem from="1713305213910" duration="199000" />
+      <workItem from="1713557050811" duration="339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
